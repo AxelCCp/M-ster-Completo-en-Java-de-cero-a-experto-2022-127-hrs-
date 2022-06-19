@@ -1,0 +1,27 @@
+package A0_variables;
+/*
+PRIMITIVOS
+
+LOS PRIMITIVOS NO SON INSTANCIAS, NO SON OBJETOS. ES UN TIPO DE DATO QUE REPRESENTA UN VALOR. 
+MIENTRAS QUE LOS TIPOS DE DATOS DE REFERENCIA, SI SON OBJ DE LA CLASE WRAPPER.
+
+
+*/
+
+
+public class A1_2_10_primitivos {
+	public static void main(String[]args) {
+		
+		
+		System.out.println("tipo byte corresponde en byte a : " + Byte.BYTES);
+		System.out.println("tipo byte corresponde en byte a : " + Byte.SIZE);
+		System.out.println("valor máximo de un byte:" + Byte.MAX_VALUE);
+		System.out.println("valor máximo de un byte:" + Byte.MIN_VALUE);
+		System.out.println(":");
+		System.out.println(":");
+		System.out.println(":");
+		System.out.println(":");
+	
+		
+	}
+}

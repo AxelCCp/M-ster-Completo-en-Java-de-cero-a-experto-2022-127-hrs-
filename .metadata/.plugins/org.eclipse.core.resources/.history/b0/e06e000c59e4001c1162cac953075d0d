@@ -1,0 +1,16 @@
+package A1_strings;
+
+public class B2_27_EjemploStringConcatenacion {
+
+	public static void main(String[] args) {
+		String curso = "Programación java";
+		String profesor = "Andrés Guzmán";
+	
+		
+		String resultado = curso.concat(profesor);
+		System.out.println("curso = " + curso);
+		System.out.println("resultado = " + resultado);
+		System.out.println(curso == resultado);
+	}
+
+}
