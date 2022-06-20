@@ -1,0 +1,13 @@
+package A1_strings;
+
+public class B9_33_ObtenciónDeExtensionDeArchivo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String archivo = "alguna_imagen.jpeg";
+		System.out.println("archivo.length() = " + archivo.length());
+		
+	}
+
+}

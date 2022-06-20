@@ -1,0 +1,21 @@
+package A1_strings;
+
+public class C0_34_ConvertirStringToArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String trabalenguas = "trabalenguas";
+		System.out.println("trabalenguas.toCharArray() " + trabalenguas.toCharArray());  // R : [C@626b2d4a
+		
+		char[]arreglo = trabalenguas.toCharArray();
+		int largo = arreglo.length;
+		for(int i=0; i<largo;i++) {
+			System.out.print(arreglo[i]);
+			System.out.println(arreglo[i]);
+		}
+		
+	}
+
+}

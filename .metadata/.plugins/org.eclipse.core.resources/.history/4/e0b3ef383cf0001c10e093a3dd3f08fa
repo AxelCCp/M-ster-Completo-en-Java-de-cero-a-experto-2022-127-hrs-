@@ -1,0 +1,9 @@
+package A3_4_operadores;
+
+public class A5_40_OperadoresRelacionales {
+	public static void main(String[] args) {
+		
+		int i =3;
+		byte j = 7;		
+	}
+}

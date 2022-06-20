@@ -1,0 +1,36 @@
+package A1_strings;
+
+public class B8_32_String {
+
+	//CLASE 32 
+
+	//SE REEMPLAZA UN CARACTER POR OTRO 
+	String trabalenguas = "trabalenguas";  
+	//SE REEMPLAZAN LAS "a" POR UN PUNTO ... LA INSTANCIA QUE RETORNA EL MÉTODO REPLACE CON LA NUEVA CADENA CON PUNTOS, NO REEMPLAZA A LA CADENA ORIGINAL.
+	System.out.println("trabalenguas: " + trabalenguas.replace("a","."));
+
+
+	//MÉTODO PARA SABER SI SE ENCUENTRA UN CARACTER DENTRO DE UNA POSICIÓN ... RETORNA LA 1RA OCURRENCIA EN QUE APARECE ESTE CARACTER "A".
+	System.out.println("trabalenguas.indexOf() : " + trabalenguas.indexOf('a')); //TAMBN PUEDE RECIBIR UN STRING
+
+
+	//MÉTODO QUE TE DICE DONDE OCURRE LA ÚLTIMA OCURENCIA DE UN CARACTER  ... SI EL CARACTER BUSCADO NO SE ENCUENTRA DENTRO DEL STRING, RETORNA -1
+	System.out.println("trabalenguas.lastIndexOf() : " + trabalenguas.lastIndexOf('a')); //TAMBN PUEDE RECIBIR UN STRING
+
+
+	//ESTE MÉTODO EN CAMBIO, DEVUELVE UN BOOLEAN ... Y RECIBE SI O SI UN STRING 
+	System.out.println("trabalenguas.contains("t") : " + trabalenguas.contains("t"));  //TRUE OR FALSE
+
+	//ESTE MÉTODO, DEVUELVE UN BOOLEAN ... RECIBE UN STRING ... COMPRUEBA SI UN STRING COMIENZA CON EL STRING INDICADO.
+	System.out.println("trabalenguas.startsWith("lenguas") : " + trabalenguas.startsWith("lenguas"));  //TRUE OR FALSE ... FALSE
+
+
+	//MÉTODO QUE QUITA LOS ESPACIOS EN BLANCO
+	String trabalenguas2 = "  trabalenguas ";
+	System.out.println(trabalenguas.trim());  
+	
+	
+	
+	
+	
+}

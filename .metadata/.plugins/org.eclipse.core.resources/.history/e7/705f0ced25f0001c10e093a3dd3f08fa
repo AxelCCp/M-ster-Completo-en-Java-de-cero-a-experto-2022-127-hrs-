@@ -1,0 +1,13 @@
+package A3_4_operadores;
+
+public class A1_36_OperadoresAritmeticos {
+
+	
+	public static void main(String[]args) {
+		
+		int i = 5;
+		int j = 7;
+	}
+	
+	
+}

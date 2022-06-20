@@ -1,9 +1,0 @@
-package A0_variables;
-
-public class A0_2_9_variables {
-	public static void main(String[]args) {
-		String saludar = "hola mundo desde java";
-		System.out.println(saludar);
-		System.out.println("saludar.toUpperCase() = " + saludar.toUpperCase());
-	}
-}

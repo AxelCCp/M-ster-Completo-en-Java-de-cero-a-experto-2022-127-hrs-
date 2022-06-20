@@ -1,0 +1,10 @@
+package A1_strings;
+
+public class C0_34_ConvertirStringToArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
