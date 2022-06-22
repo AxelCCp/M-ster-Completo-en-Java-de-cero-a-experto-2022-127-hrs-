@@ -1,0 +1,14 @@
+package A3_4_operadores;
+
+public class A8_45_OperadorTernario {
+
+	public static void main(String[] args) {
+		
+		// VATIABLE = CONDICION ? siEsVerdadero : siEsFalso;
+		
+		String variable = 7==7 ? "si es verdadero" : "es falso";
+		System.out.println(variable);
+
+	}
+
+}
