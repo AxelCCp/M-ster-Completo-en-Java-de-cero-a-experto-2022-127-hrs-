@@ -1,0 +1,39 @@
+package A4_5_flujosDeControl;
+
+import java.util.Scanner;
+
+public class A7_Tarea7 {
+
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Crear una clase con el método main donde el desafío es buscar el número menor de mínimo 10 valores enteros, 
+		 * usando la clase Scanner ingresar la cantidad de números a comparar, luego utilizando una sentencia for iterar 
+		 * el numero de veces (ingresado) para pedir el numero entero, entonces se requiere:
+			
+			Calcular el menor número e imprimir el valor.
+
+			Si el menor número es menor que 10, imprimir "El número menor es menor que 10!". 
+			si no, imprimir " el numero menor es igual o mayor que 10!".
+		 * 
+		 */
+		
+		
+		Scanner scan = new Scanner(System.in);
+		int[]numeros = new int[10];		
+		int num;
+		
+		
+		for(int i=1;i<10;i++) {
+			System.out.println("Ingresa 10 números enteros");
+			num = scan.nextInt(); 
+			System.out.println("numero " + (i + 1) + " : " +  num);
+			numeros[i] = num;
+		}
+	
+		
+		
+	}
+	
+}
