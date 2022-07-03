@@ -1,0 +1,20 @@
+package A5_6_ClasesWrapper_TiposDeDatosDeReferencia;
+
+public class A4_71_WrapperBoolean {
+
+	public static void main(String[] args) {
+		
+		Integer num1, num2;
+		num1 = 1;
+		num2 = 2;
+		boolean  primBoolean = num1 > num2; 	// false
+		
+		Boolean objBoolean1 = false;							//MANERA IMPLICITA
+		Boolean objBoolean2 = Boolean.valueOf(primBoolean);		//MANERA EXPLICITA
+		
+		//TAMBN SE PUEDE HACER ESTO CON UN STRING
+		Boolean objBoolean3 = Boolean.valueOf("false");
+		
+	}
+	
+}

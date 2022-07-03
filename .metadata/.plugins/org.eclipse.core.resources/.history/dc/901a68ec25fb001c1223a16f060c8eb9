@@ -1,0 +1,24 @@
+package A5_6_ClasesWrapper_TiposDeDatosDeReferencia;
+
+public class A6_73_PasarPorValor {
+	
+	public static void main(String[] args) {
+		
+		
+		int i = 10;
+		System.out.println("iniciamos el main con i = " + i);
+		
+		
+		test(i);
+		
+	}
+	
+	
+	
+	public static void test(int i) {
+		System.out.println("Iniciamos el método test con i = " + i);
+	}
+	
+	
+	
+}

@@ -1,8 +1,0 @@
-package A3_4_operadores;
-
-public class B1_49_OperadorInstanceOfTiposGenericos {
-	
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,0 +1,21 @@
+package A5_6_ClasesWrapper_TiposDeDatosDeReferencia;
+
+public class A1_68_WrapperInteger {
+
+	public static void main(String[] args) {
+		
+		
+		//ESTO ESTÁ DEPRECATED DESDE LA VERSIÓN 7
+		//Integer intObjeto = new Integer(2876);
+		
+		//FORMA EXPLISITA DE CREAR UN OBJ DE TIPO REFERENCIAL
+		Integer intObjeto = Integer.valueOf(23243);
+		
+		//ESTA ES LA FORMA AUTOMÁTICA DE CREAR UN OBJ DE TIPO DE REFERENCIA
+		Integer intObjeto2 = 176321;
+		
+
+		
+	}
+
+}
