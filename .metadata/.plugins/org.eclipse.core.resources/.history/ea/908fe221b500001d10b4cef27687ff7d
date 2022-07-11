@@ -1,0 +1,20 @@
+package A5_6_ClasesWrapper_TiposDeDatosDeReferencia;
+
+public class A8_75_PasarPorArgumentoObjClasePersona {
+
+	public static void main(String[] args) {
+		
+			
+		
+		
+		
+	}
+	
+	class Persona{
+		private String nombre;
+		public void modificarNombre(String nuevoNombre) {
+			nombre = nuevoNombre;
+		}
+	}
+	
+}

@@ -1,0 +1,14 @@
+package A5_6_ClasesWrapper_TiposDeDatosDeReferencia;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class A8_76_ClaseDate_formatosDeFecha {
+	
+	public static void main(String[] args) {
+		Date fecha = new Date();
+		System.out.println(fecha);
+		SimpleDateFormat df = new SimpleDateFormat("dd MMMM, yyyy");
+		String fechaStr = df.format(fecha);
+	}
+}
