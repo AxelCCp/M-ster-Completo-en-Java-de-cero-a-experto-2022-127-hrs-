@@ -26,6 +26,25 @@ public class A2_99_Array_OrdenamientoBurbuja {
 			System.out.println(nn);
 		}
 		
+		System.out.println(";;;;;;;;;;;;ORDENAMIENTO BURBUJA;;;;;;;;;;;;;;;;;;");
+		
+		int contador=0;
+		
+		for(int j=0;j<total-1;j++){
+			if(productos[j+1].compareTo(productos[j])<0) {
+				String auxiliar = productos[j];
+				productos[j] = productos[j+1];
+				productos[j+1] = auxiliar;		
+			}
+			contador++;
+		}
+		
+		for(String nn : productos) {
+			System.out.println(nn);
+		}
+		
+		
+		
 		 /* R :
 		  * ahgsfdg
 			bhubhubhubhu
