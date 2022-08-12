@@ -13,4 +13,8 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="A0_poo.A2_EjemploAutomovilStatic"/>
+    <fullyQualifiedTypeName name="A0_poo.A3_146_Color"/>
+    <fullyQualifiedTypeName name="A0_poo.A1_Automovil"/>
 </qualifiedTypeNameHistroy>

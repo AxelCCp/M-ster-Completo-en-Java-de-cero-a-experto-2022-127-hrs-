@@ -36,5 +36,18 @@ public class A0_130_EjemploAutomovil {
 		System.out.println(honda.getFabricante());
 		System.out.println(honda.getModelo());
 		
+		
+		A1_Automovil suzuki = new A1_Automovil("suzuki", "xxxx", "verde", 3.0);
+		System.out.println(suzuki.detalle2());
+		
+		A1_Automovil suzuki2 = new A1_Automovil("suzuki", "xxxx", "verde", 3.0);
+		System.out.println("Polimorfismo .... tambn se pueden modificar métodos de clases de java");
+		System.out.println("Son iguales? " + (suzuki==suzuki2));
+		System.out.println("Son iguales? " + suzuki.equals(suzuki2));
+		
+		
+		
 	}
+
+	
 }
