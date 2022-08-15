@@ -1,27 +1,31 @@
-package A0_poo;
+package A1_151_ClasesRelacionadas;
 
-import A1_151_ClasesRelacionadas.A3_151_Rueda;
 
-public class A1_Automovil {
-	
+import A0_poo.A3_146_Color;
+import A0_poo.A4_147_TipoAutomovil;
+
+public class A0_151_Automovil {
+	private int id;
 	private String fabricante;
 	private String modelo;
-	private String color;
-	private double cilindrada;
-	private int capacidadEstanque = 40;
+	private A3_146_Color color = A3_146_Color.GRIS;
+	private A1_151_Motor motor;
+	private A5_151_Estanque estanque;
+	private A2_151_Persona conductor;
+	private A3_151_Rueda[]ruedas;
+	private A4_147_TipoAutomovil tipo;
 	private static A3_146_Color colorPatente = A3_146_Color.NARANJO;
-	private static int capacidadEstanque2 = 40;
-	private int id;
+	private static int capacidadEstanqueEstatico = 30;
 	private static int ultimoId;
 	public static final Integer VELOCIDAD_MAX_CARRETERA = 120;
 	public static final Integer VELOCIDAD_MAX_CIUDAD = 60;
-	private A4_147_TipoAutomovil tipo;
-	private A3_146_Color color2;
+	private int indiceRuedas;
+	
 	
 	public void detalle() {
 		System.out.println("auto.fabricante : " + this.fabricante);
 		System.out.println("auto.modelo : " + this.modelo);
-		System.out.println("auto.cilindrada : " + this.cilindrada);
+		System.out.println("auto.cilindrada : " + this.motor);
 		System.out.println("auto.color : " + this.color);
 	}
 	
@@ -29,16 +33,21 @@ public class A1_Automovil {
 		StringBuilder sb = new StringBuilder();
 		sb.append("\nauto.fabricante : " + this.fabricante);
 		sb.append("\nauto.modelo : " + this.modelo);
-		sb.append("\nauto.cilindrada : " + this.cilindrada);
+		sb.append("\nauto.cilindrada : " + this.motor.getCilindrada());
 		//sb.append("\nauto.color : " + this.color2.getColor());
 		sb.append("\nColorPatente : " + colorPatente);
 		sb.append("\nId : " + this.id);
 		return sb.toString();
 	}
 	
-	
 	public String detalle3() {
 		return "auto.tipo : " + this.getTipo().getDescripcion();
+	}
+	
+	public void detalleRuedas() {
+		for(A3_151_Rueda r : this.getRuedas()) {
+			System.out.println(r.getFabricante() + " " + r.getAro() + " " + r.getAncho());
+		}
 	}
 	
 	public String acelerar(int rpm) {
@@ -56,50 +65,53 @@ public class A1_Automovil {
 	}
 	
 	public float calcularConsumo(int km, float porcentajeBensina) {
-		return km/(capacidadEstanque*porcentajeBensina);
+		return km/(this.estanque.getCapacidad()*porcentajeBensina);
 	}
 	
 	public float calcularConsumo(int km, int porcentajeBensina) {
-		return km/(capacidadEstanque*(porcentajeBensina/100f));
+		return km/(this.estanque.getCapacidad()*(porcentajeBensina/100f));
 	}
 	
 	public static float calcularConsumoEstatico(int km, int porcentajeBensina) {
-		return km/(A1_Automovil.capacidadEstanque2*(porcentajeBensina/100f));
+		return km/(A0_151_Automovil.capacidadEstanqueEstatico*(porcentajeBensina/100f));
 	}
 	
-	public A1_Automovil() {
+	public A0_151_Automovil() {
 		this.id = ++ultimoId;
+		this.ruedas = new A3_151_Rueda[5];
 	}
 	
-	public A1_Automovil(String fabricante, String modelo) {
+	public A0_151_Automovil(String fabricante, String modelo) {
 		this();
 		this.fabricante = fabricante;
 		this.modelo = modelo;
 	}
 	
-	public A1_Automovil(String fabricante, String modelo, String color) {
-		//this.fabricante = fabricante;
-		//this.modelo = modelo;
+	public A0_151_Automovil(String fabricante, String modelo, A3_146_Color color) {
 		this(fabricante,modelo);
 		this.color = color;
 	}
 	
-	public A1_Automovil(String fabricante, String modelo, String color, double cilindrada) {
-		//this.fabricante = fabricante;
-		//this.modelo = modelo;
-		//this.color = color;
+	public A0_151_Automovil(String fabricante, String modelo, A3_146_Color color, A1_151_Motor motor) {
 		this(fabricante,modelo,color);
-		this.cilindrada = cilindrada;
+		this.motor = motor;
 	}
 	
-	public A1_Automovil(String fabricante, String modelo, String color, double cilindrada, int capacidadEstanque) {
+	public A0_151_Automovil(String fabricante, String modelo, A3_146_Color color, A1_151_Motor motor, A5_151_Estanque estanque) {
 		this.fabricante = fabricante;
 		this.modelo = modelo;
 		this.color = color;
-		this.cilindrada = cilindrada;
-		this.capacidadEstanque = capacidadEstanque;
+		this.motor = motor;
+		this.estanque = estanque;
 	}
 	
+	public A0_151_Automovil(String fabricante, String modelo, A3_146_Color color, A1_151_Motor motor,
+			A5_151_Estanque estanque, A2_151_Persona conductor, A3_151_Rueda[] ruedas) {
+		this(fabricante, modelo, color, motor, estanque);
+		this.conductor = conductor;
+		this.ruedas = ruedas;
+	}
+
 	public String getFabricante(){
 		return this.fabricante;
 	}
@@ -112,59 +124,64 @@ public class A1_Automovil {
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-	public String getColor() {
+	public A3_146_Color getColor() {
 		return this.color;
 	}
-	public void setColor(String color) {
+	public void setColor(A3_146_Color color) {
 		this.color = color;
-	}
-	public double getCilindrada() {
-		return this.cilindrada;
-	}
-	public void setCilindrada(double cilindrada) {
-		this.cilindrada = cilindrada;
-	}
-	public int getCapacidadEstanque() {
-		return this.capacidadEstanque;
-	}
-	public  void setCapacidadEstanque(int capacidadEstanque) {
-		this.capacidadEstanque = capacidadEstanque;
 	}
 	public static A3_146_Color getColorPatente() {
 		return colorPatente;
 	}
 	public static void setColorPatente(A3_146_Color colorPatente) {
-		A1_Automovil.colorPatente = colorPatente;
+		A0_151_Automovil.colorPatente = colorPatente;
 	}
-	public static int getCapacidadEstanque2() {
-		return A1_Automovil.capacidadEstanque2;
-	}
-	public  static void setCapacidadEstanque2(int capacidadEstanque2) {
-		A1_Automovil.capacidadEstanque2 = capacidadEstanque2;
-	}
-	
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	public A4_147_TipoAutomovil getTipo() {
 		return tipo;
 	}
-
 	public void setTipo(A4_147_TipoAutomovil tipo) {
 		this.tipo = tipo;
 	}
+	public A1_151_Motor getMotor() {
+		return motor;
+	}
+	public void setMotor(A1_151_Motor motor) {
+		this.motor = motor;
+	}
+	public A5_151_Estanque getEstanque() {
+		return estanque;
+	}
+	public void setEstanque(A5_151_Estanque estanque) {
+		this.estanque = estanque;
+	}
+	public A2_151_Persona getConductor() {
+		return conductor;
+	}
+	public void setConductor(A2_151_Persona conductor) {
+		this.conductor = conductor;
+	}
+	public A3_151_Rueda[] getRuedas() {
+		return ruedas;
+	}
+	public void setRuedas(A3_151_Rueda[] ruedas) {
+		this.ruedas = ruedas;
+	}
 
+	public void addRueda(A3_151_Rueda rueda) {
+		this.ruedas[indiceRuedas++] = rueda; 
+	}
 	
 	
 	//SOBREESCRIBIENDO EL MÉTODO EQUALS() PARA Q COMPARE POR EL FABRICANTE Y EL MODELO
 	@Override
 	public boolean equals(Object obj) {
-		A1_Automovil a = (A1_Automovil) obj;
+		A0_151_Automovil a = (A0_151_Automovil) obj;
 		return (this.fabricante.equals(a.getFabricante()) && this.modelo.equals(a.getModelo()));
 	}
 	

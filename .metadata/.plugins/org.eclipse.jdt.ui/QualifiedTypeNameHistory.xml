@@ -15,6 +15,16 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="A0_poo.A2_EjemploAutomovilStatic"/>
-    <fullyQualifiedTypeName name="A0_poo.A3_146_Color"/>
     <fullyQualifiedTypeName name="A0_poo.A1_Automovil"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="A0_poo.A4_148_EjemploAutomovilEnum"/>
+    <fullyQualifiedTypeName name="A0_poo.A5_148_EjemploAutomovilEnum"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A0_151_Automovil"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A1_151_Motor"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A4_151_TipoMotor"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A5_151_Estanque"/>
+    <fullyQualifiedTypeName name="A0_poo.A4_147_TipoAutomovil"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A2_151_Persona"/>
+    <fullyQualifiedTypeName name="A0_poo.A3_146_Color"/>
+    <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A3_151_Rueda"/>
 </qualifiedTypeNameHistroy>
