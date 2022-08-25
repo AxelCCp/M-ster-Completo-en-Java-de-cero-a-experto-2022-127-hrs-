@@ -8,12 +8,7 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="javax.swing.text.SimpleAttributeSet"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="A0_poo.A2_EjemploAutomovilStatic"/>
     <fullyQualifiedTypeName name="A0_poo.A1_Automovil"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
@@ -27,4 +22,19 @@
     <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A2_151_Persona"/>
     <fullyQualifiedTypeName name="A0_poo.A3_146_Color"/>
     <fullyQualifiedTypeName name="A1_151_ClasesRelacionadas.A3_151_Rueda"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.app.model.Factura"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.app.model.ItemFactura"/>
+    <fullyQualifiedTypeName name="com.clasesAbstractas.app.elementos.ElementoForm"/>
+    <fullyQualifiedTypeName name="com.clasesAbstractas.app.elementos.InputForm"/>
+    <fullyQualifiedTypeName name="com.clasesAbstractas.app.elementos.TextAreaForm"/>
+    <fullyQualifiedTypeName name="com.clasesAbstractas.app.elementos.SelectForm"/>
+    <fullyQualifiedTypeName name="com.clasesAbstractas.app.elementos.select.Opcion"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
