@@ -34,9 +34,6 @@ public class TextAreaForm extends ElementoForm {
 		this.columnas = columnas;
 	}
 
-
-
-
 	private int filas;
 	private int columnas;
 }
