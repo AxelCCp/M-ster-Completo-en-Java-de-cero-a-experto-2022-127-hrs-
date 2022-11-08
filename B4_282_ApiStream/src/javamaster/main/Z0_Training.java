@@ -192,9 +192,7 @@ public class Z0_Training {
 					}
 				});
 		numsStreamB8.forEach(System.out::println);
-		
-		
-		
+			
 	}
 	public static void temporizador() {
 		Long num = (long) (Math.random()*10);
