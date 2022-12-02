@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javamaster.procesador.JsonSerializador"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-    <fullyQualifiedTypeName name="javamaster.anotation.Init"/>
-    <fullyQualifiedTypeName name="javamaster.procesador.exceptions.JsonSerializadorException"/>
-    <fullyQualifiedTypeName name="javamaster.model.Componente"/>
-    <fullyQualifiedTypeName name="javamaster.patrones.singleton.ConexionBDSingleton"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNewYorkVegetariana"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNuevaYorkPeperoni"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNewYorkItaliana"/>
@@ -32,7 +21,6 @@
     <fullyQualifiedTypeName name="javamaster.patrones.decorator2.decorador.ConLecheDecorador"/>
     <fullyQualifiedTypeName name="javamaster.patrones.decorator2.decorador.ConChocolateDecorador"/>
     <fullyQualifiedTypeName name="javamaster.patrones.decorator2.decorador.ConCremaDecorador"/>
-    <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="javamaster.patrones.composite.Directorio"/>
     <fullyQualifiedTypeName name="javamaster.patrones.composite.Archivo"/>
     <fullyQualifiedTypeName name="javamaster.patrones.observer.Corporacion"/>
@@ -46,18 +34,30 @@
     <fullyQualifiedTypeName name="javamaster.manejo.archivos.service.ArchivoService"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.util.Conection"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.model.Usuarios"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.repo.RepoUsuarios"/>
+    <fullyQualifiedTypeName name="org.apache.commons.dbcp2.BasicDataSource"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="javamaster.jdbc.util.ConexionBBDD"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="javamaster.jdbc.repo.IRepositorio"/>
-    <fullyQualifiedTypeName name="javamaster.jdbc.model.Producto"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="javamaster.jdbc.repo.ProductoRepositorio"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.repo.CategoriaRepositorioImpl"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.model.Producto"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.model.Categoria"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.repo.ProductoRepositorio"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.repo.IRepositorio"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.repo.CategoriaRepositorio"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.util.ConexionBBDD"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.service.IService"/>
+    <fullyQualifiedTypeName name="javamaster.jdbc.service.CatalogoServicio"/>
 </qualifiedTypeNameHistroy>
