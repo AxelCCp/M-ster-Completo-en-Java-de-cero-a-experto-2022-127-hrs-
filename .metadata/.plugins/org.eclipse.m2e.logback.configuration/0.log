@@ -2673,3 +2673,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainJdbc references
 2022-11-29 16:40:51,517 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\8.-JAVA_MASTER\C7_358_javamaster-jdbc-pool_Rollback_CnService\src\main\resources
 2022-11-29 16:40:51,517 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-29 16:40:51,517 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Fanta\Documents\8.-JAVA_MASTER\C7_358_javamaster-jdbc-pool_Rollback_CnService\src\test\resources
+2022-12-02 21:05:58,211 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
