@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNewYorkVegetariana"/>
-    <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNuevaYorkPeperoni"/>
-    <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaNewYorkItaliana"/>
-    <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaCaliforniaQueso"/>
-    <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaCaliforniaPepperoni"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.producto.PizzaCaliforniaVegetariana"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.PizzeriaNewYorkFactory"/>
     <fullyQualifiedTypeName name="javamaster.patrones.factory.PizzeriaZonaAbstractFactory"/>
@@ -43,13 +38,11 @@
     <fullyQualifiedTypeName name="javamaster.jdbc.model.Usuarios"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.repo.RepoUsuarios"/>
     <fullyQualifiedTypeName name="org.apache.commons.dbcp2.BasicDataSource"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.repo.CategoriaRepositorioImpl"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.model.Producto"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.model.Categoria"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.service.IService"/>
     <fullyQualifiedTypeName name="javamaster.jdbc.service.CatalogoServicio"/>
+    <fullyQualifiedTypeName name="master.junit.exceptions.DineroInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
 </qualifiedTypeNameHistroy>
